@@ -1,0 +1,13 @@
+[user]
+	name = Dan Bernier
+	email = danbernier@gmail.com
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	dc = diff --cached
+[color]
+	ui = auto
+[core]
+  editor = vim
+  excludesfile = /home/dan/.gitignore_global
