@@ -1,4 +1,3 @@
-
 execute pathogen#infect()
 
 set number
@@ -7,10 +6,13 @@ set number
 set hls
 
 syntax enable
+
+" This was here for solarized, but I'm not using that now...
 set t_Co=256
 set background=dark
-let solarized_termtrans=1
-colorscheme solarized
+" let solarized_termtrans=1
+" colorscheme solarized
+
 filetype plugin indent on
 
 " Indent by 2 spaces (no tabs)
