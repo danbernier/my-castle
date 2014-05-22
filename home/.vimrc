@@ -28,3 +28,15 @@ set smartindent
 " far
 set showcmd
 
+
+" use comma as <Leader> key instead of backslash
+let mapleader=","
+
+" double percentage sign in command mode is expanded
+" to directory of current file - http://vimcasts.org/e/14
+cnoremap %% <C-R>=expand('%:h').'/'<cr>
+
+
+let g:ShowTrailingWhitespace = 1
+let g:DeleteTrailingWhitespace = 1
+let g:DeleteTrailingWhitespace_Action = 'delete'
