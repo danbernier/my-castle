@@ -1,6 +1,6 @@
 alias be='bundle exec'
 
-$EDITOR=vim
+export EDITOR=vim
 
 
 setxkbmap -option ctrl:nocaps
