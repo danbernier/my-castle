@@ -11,3 +11,5 @@
 [core]
   editor = vim
   excludesfile = /home/dan/.gitignore_global
+[push]
+	default = current
