@@ -5,7 +5,8 @@ set number
 
 set hls
 
-syntax enable
+syntax on
+set nocompatible
 
 " This was here for solarized, but I'm not using that now...
 set t_Co=256
@@ -13,7 +14,7 @@ set background=dark
 " let solarized_termtrans=1
 " colorscheme solarized
 
-filetype plugin indent on
+filetype plugin on
 
 " Indent by 2 spaces (no tabs)
 " Use :set noet to turn this off
@@ -40,3 +41,6 @@ cnoremap %% <C-R>=expand('%:h').'/'<cr>
 let g:ShowTrailingWhitespace = 1
 let g:DeleteTrailingWhitespace = 1
 let g:DeleteTrailingWhitespace_Action = 'delete'
+
+
+let g:vimwiki_list = [{'path': '~/notes/', 'ext': '.md'}]
