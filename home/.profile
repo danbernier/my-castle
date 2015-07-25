@@ -24,3 +24,7 @@ fi
 setxkbmap -option 'ctrl:nocaps'
 
 source ~/.git-prompt.sh
+
+# GoLang configuration
+export GOPATH=$HOME/projects/golang
+export PATH=$PATH:$GOPATH/bin:/usr/local/go/bin
