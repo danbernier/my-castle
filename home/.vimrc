@@ -24,6 +24,7 @@ set expandtab
 
 " Indent the next line the same as the previous line
 set smartindent
+filetype plugin indent on
 
 " When you're typing your way through a command, show you what you've typed so
 " far
