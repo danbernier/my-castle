@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/home/dan/Dropbox/notes/continuity-control'
-let g:netrw_dirhist_2='/home/dan/projects/insulting/lib'
-let g:netrw_dirhist_3='/home/dan/projects/play/git-blog/blog/_posts'
-let g:netrw_dirhist_4='/home/dan/projects/play/git-blog/css'
-let g:netrw_dirhist_5='/home/dan/projects/continuity/dev-blog/_drafts'
