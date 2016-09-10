@@ -21,7 +21,8 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
-setxkbmap -option 'ctrl:nocaps'
+# This used to be useful, but now you do it in ~/.Xmodmap:
+# setxkbmap -option 'ctrl:nocaps'
 
 source ~/.git-prompt.sh
 
